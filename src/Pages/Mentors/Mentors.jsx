@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 
 const Mentors = () => {
   return (
-    <>
+      <div className="mentor">
       <Navbar />
       <div className="heading">
         <p>Our Mentors</p>
@@ -29,7 +29,7 @@ const Mentors = () => {
         })}
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
